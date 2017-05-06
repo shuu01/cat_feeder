@@ -26,8 +26,8 @@ void setup()
 {
     /// rtc setup
     rtc.begin();
-    // uncomment this line at first upload to set ds1307 date & time this sketch was compiled
-    // then comment it and upload sketch again
+    // uncomment this line at first upload to set current ds1307 date & time
+    // then comment it, build and upload sketch again
     //rtc.adjust(DateTime(F(__DATE__), F(__TIME__)));
     /// timelib setup
     setSyncProvider(sync_provider);
