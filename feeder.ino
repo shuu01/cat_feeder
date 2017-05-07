@@ -2,7 +2,7 @@
 #include <TimeAlarms.h> // https://github.com/PaulStoffregen/TimeAlarms
 #include <RTClib.h> // https://github.com/adafruit/RTClib
 
-#define STEPS 32
+#define STEPS 64
 
 Stepper stepper(STEPS, 9, 8, 7, 6);
 RTC_DS1307 rtc;
