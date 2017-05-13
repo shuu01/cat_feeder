@@ -1,5 +1,5 @@
 #include <Stepper.h>
-#include <TimeAlarms.h> // https://github.com/PaulStoffregen/TimeAlarms
+#include <TimeAlarms.h> // https://github.com/PaulStoffregen/TimeAlarms & https://github.com/PaulStoffregen/Time
 #include <RTClib.h> // https://github.com/adafruit/RTClib
 
 #define STEPS 64
