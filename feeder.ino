@@ -31,7 +31,7 @@ void setup()
     //rtc.adjust(DateTime(F(__DATE__), F(__TIME__)));
     /// timelib setup
     setSyncProvider(sync_provider);
-    setSyncInterval(86400); 
+    setSyncInterval(60); 
     /// stepper setup
     stepper.setSpeed(15);
     /// timealarms
