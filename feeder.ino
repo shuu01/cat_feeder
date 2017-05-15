@@ -33,7 +33,7 @@ void setup()
     setSyncProvider(sync_provider);
     setSyncInterval(60); 
     /// stepper setup
-    stepper.setSpeed(256);
+    stepper.setSpeed(128);
     /// timealarms
     Alarm.alarmRepeat(6, 30, 0, feed);
     Alarm.alarmRepeat(10, 30, 0, feed);
